@@ -5,26 +5,71 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {"type":"vmess","name":"CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25897","uuid":"8b1b6169-d4af-474c-826d-5e7b3308ab26","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_4","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25897","uuid":"556b9320-c778-4166-b009-1ec14374a9c5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HK香港(youtube阿伟科技)","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25897","uuid":"761195f3-df19-4d48-9d98-8fdf2a687103","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"日本快|tg频道:@ripaojiedian","server":"jp.liangyuandian.top","port":443,"password":"92686865-4cda-49a9-88af-c2c811db3403","udp":true,"skip-cert-verify":true,"sni":"jp.liangyuandian.top"}
-  - {"type":"vmess","name":"SG新加坡(youtube阿伟科技)","ws-opts":{"path":"/qingzhuanduoyun","headers":{"host":"a.189.cn"}},"server":"110.80.3.4","port":"25028","uuid":"1cba22dc-c942-45dc-ab53-5cfc04ef8520","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"ss","name":"油管阿伟科技_1","server":"dosg.securevpn.cc","port":1020,"cipher":"aes-128-gcm","password":"202211000000000000000020"}
-  - {"type":"vmess","name":"HK香港(youtube阿伟科技)_1","ws-opts":{"path":"/qingzhuanduoyun","headers":{"host":"a.189.cn"}},"server":"110.80.3.4","port":"25026","uuid":"1cba22dc-c942-45dc-ab53-5cfc04ef8520","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"油管阿伟科技_2","server":"yydsdy.top","port":20000,"cipher":"chacha20-ietf-poly1305","password":"Dwz4t1EJg0obH8oCuMjFcDheszcYC7yZXtyi6Vj6CbQk"}
+  - {"type":"ss","name":"油管阿伟科技_2","server":"sg.securevpn.cc","port":1020,"cipher":"aes-128-gcm","password":"202211000000000000000020"}
+  - {"type":"vmess","name":"低速备用-油管阿伟科技_1","ws-opts":{"path":"/vpndata.shop"},"server":"103.161.112.225","port":"80","uuid":"fc49716a-3594-47b2-8667-0bfba2a88e60","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_14","ws-opts":{"path":"/","headers":{"host":"53.72img.xyz"}},"server":"53.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国(油管:破解资源君2.0)","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"66.212.20.3","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_17","ws-opts":{"path":"/","headers":{"host":"21.72img.xyz"}},"server":"21.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_19","ws-opts":{"path":"/","headers":{"host":"44.72img.xyz"}},"server":"44.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"荷兰|tg频道:@ripaojiedian","ws-opts":{"path":"/lXvA0Vse/","headers":{"host":"hl1.cachexy.ga"}},"server":"104.29.64.24","port":"80","uuid":"3f421e27-5bf8-40c9-86cb-7b8c41dddea2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_7","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"138.2.122.225","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_13","ws-opts":{"path":"/"},"server":"34.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_23","ws-opts":{"path":"/"},"server":"9.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_24","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"128.14.140.254","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"128.14.140.254","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26","ws-opts":{"path":"/","headers":{"host":"36.72img.xyz"}},"server":"36.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_21","ws-opts":{"path":"/"},"server":"45.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29","ws-opts":{"path":"/ray","headers":{"host":"fr2.cfcdn4.xyz"}},"server":"198.41.203.6","port":"443","uuid":"f33957e8-372e-4fba-99ed-f4db32cce9e5","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_20","ws-opts":{"path":"/","headers":{"host":"38.72img.xyz"}},"server":"172.67.183.35","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27","ws-opts":{"path":"/","headers":{"host":"35.72img.xyz"}},"server":"35.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27","ws-opts":{"path":"/sshkit/401452697/635b464921141/","headers":{"host":"sg1-v2ray.sshkit.org"}},"server":"hynesconstruction.com","port":"443","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_15","ws-opts":{"path":"/","headers":{"host":"54.72img.xyz"}},"server":"54.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"34.145.145.76","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"免费日本01-官网2：pianyijc.xyz","ws-opts":{"path":"/sometimesnaive","headers":{"host":"m2.pianyijc.top"}},"server":"m2.pianyijc.top","port":"31211","uuid":"fac77864-c6f5-4c8d-84a1-f49fddd8a137","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HK香港(youtube阿伟科技)_2","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25897","uuid":"761195f3-df19-4d48-9d98-8fdf2a687103","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HK香港(youtube阿伟科技)_3","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25897","uuid":"8b1b6169-d4af-474c-826d-5e7b3308ab26","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HK香港(youtube阿伟科技)_4","ws-opts":{"path":"/qingzhuanduoyun","headers":{"host":"%7B%22Host%22:%22a.189.cn%22%7D"}},"server":"110.80.3.4","port":"25026","uuid":"1cba22dc-c942-45dc-ab53-5cfc04ef8520","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"低速备用-油管阿伟科技_1","server":"219.76.13.181","port":443,"password":"SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ","udp":true,"skip-cert-verify":true,"sni":"arbettp.freetrade.link"}
-  - {"type":"ss","name":"油管阿伟科技_3","server":"sg.securevpn.cc","port":1020,"cipher":"aes-128-gcm","password":"202211000000000000000020"}
-  - {"type":"vmess","name":"低速备用-油管阿伟科技_2","ws-opts":{"path":"/vpndata.shop"},"server":"103.161.112.225","port":"80","uuid":"fc49716a-3594-47b2-8667-0bfba2a88e60","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"低速备用-油管阿伟科技_3","ws-opts":{"path":"/fhf5hfth565fhtf","headers":{"host":"king2.mmadserr.ml"}},"server":"king2.mmadserr.ml","port":"2095","uuid":"dabdbbec-f774-41ff-a296-18026f469a97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"低速备用-油管阿伟科技_4","ws-opts":{"path":"/","headers":{"host":"26.72img.xyz"}},"server":"26.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"JP日本(youtube阿伟科技)","ws-opts":{"path":"/qingzhuanduoyun","headers":{"host":"%7B%22Host%22:%22a.189.cn%22%7D"}},"server":"110.80.3.4","port":"25027","uuid":"1cba22dc-c942-45dc-ab53-5cfc04ef8520","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US美国(youtube阿伟科技)_1","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"34.145.145.76","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(youtube阿伟科技)_2","ws-opts":{"path":"/","headers":{"host":"33.72img.xyz"}},"server":"33.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"低速备用-油管阿伟科技_5","ws-opts":{"path":"/","headers":{"host":"54.72img.xyz"}},"server":"54.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"低速备用-油管阿伟科技_6","ws-opts":{"path":"/","headers":{"host":"14.72img.xyz"}},"server":"14.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_16","ws-opts":{"path":"/"},"server":"54.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26","ws-opts":{"path":"/@Backdor_Filter","headers":{"host":"107.189.31.41"}},"server":"107.189.31.41","port":"12378","uuid":"9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1","ws-opts":{"path":"/","headers":{"host":"vn3.thanhhaivpn.name.vn"}},"server":"tgunivstar-119-237-43-96.sslip.io","port":"80","uuid":"d7f2b592-2e56-4a12-8f24-20f55b422ef2","alterId":"64","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"油管阿伟科技_3","server":"yydsdy.top","port":20000,"cipher":"chacha20-ietf-poly1305","password":"Dwz4t1EJg0obH8oCuMjFcDheszcYC7yZXtyi6Vj6CbQk"}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_25","ws-opts":{"path":"/","headers":{"host":"30.72img.xyz"}},"server":"30.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1","server":"h217022.waihuizhibiaowang.com","port":15143,"cipher":"chacha20-ietf-poly1305","password":"3dbdf038-ef96-4b51-834e-ac7e5ce94fe2"}
+  - {"type":"vmess","name":"HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"219.76.13.180","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"低速备用-油管阿伟科技_2","server":"219.76.13.181","port":443,"password":"SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ","udp":true,"skip-cert-verify":true,"sni":"arbettp.freetrade.link"}
+  - {"type":"vmess","name":"🇨🇭_CH_瑞士","ws-opts":{"path":"/","headers":{"host":"www.liuyiyang19891222.tk"}},"server":"www.liuyiyang19891222.tk","port":"443","uuid":"ad48ebeb-f949-472b-9717-e8c8f0f7984d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3","server":"h745768.waihuizhibiaowang.com","port":15443,"cipher":"chacha20-ietf-poly1305","password":"3dbdf038-ef96-4b51-834e-ac7e5ce94fe2"}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_11","ws-opts":{"path":"/","headers":{"host":"38.72img.xyz"}},"server":"172.66.40.10","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_28","ws-opts":{"path":"/","headers":{"host":"16.72img.xyz"}},"server":"16.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_32","ws-opts":{"path":"/123","headers":{"host":"zz1.wblogw1.tk"}},"server":"128.14.140.254","port":"443","uuid":"02ddd27e-cb08-424d-8279-d02bf11b0342","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10","ws-opts":{"path":"/","headers":{"host":"38.72img.xyz"}},"server":"172.66.43.1","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - type: vmess
+    name: HK香港(youtube阿伟科技)_3
+    ws-opts:
+      path: /
+      headers:
+        host: cu.kapoknode.com
+    server: cu.kapoknode.com
+    port: "25897"
+    uuid: 8b1b6169-d4af-474c-826d-5e7b3308ab26
+    alterId: "0"
+    cipher: auto
+    network: ws
+  - type: vmess
+    name: US美国(youtube阿伟科技)_1
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        host: clash6.ssr-free.xyz
+    server: 34.145.145.76
+    port: "443"
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: "0"
+    cipher: auto
+    network: ws
+    tls: true
 proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
@@ -32,128 +77,253 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 日本快|tg频道:@ripaojiedian
-      - SG新加坡(youtube阿伟科技)
-      - 油管阿伟科技_1
-      - HK香港(youtube阿伟科技)_1
-      - 油管阿伟科技_2
-      - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
-      - HK香港(youtube阿伟科技)_2
       - HK香港(youtube阿伟科技)_3
-      - HK香港(youtube阿伟科技)_4
       - 低速备用-油管阿伟科技_1
-      - 油管阿伟科技_3
       - 低速备用-油管阿伟科技_2
-      - 低速备用-油管阿伟科技_3
-      - 低速备用-油管阿伟科技_4
-      - JP日本(youtube阿伟科技)
       - US美国(youtube阿伟科技)_1
-      - US美国(youtube阿伟科技)_2
-      - 低速备用-油管阿伟科技_5
-      - 低速备用-油管阿伟科技_6
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_4
+      - HK香港(youtube阿伟科技)
+      - 日本快|tg频道:@ripaojiedian
+      - 油管阿伟科技_1
+      - 油管阿伟科技_2
+      - 低速备用-油管阿伟科技_1
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_14
+      - 美国(油管:破解资源君2.0)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_17
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_19
+      - 荷兰|tg频道:@ripaojiedian
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_7
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_13
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_23
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_24
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_21
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_20
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_15
+      - US美国(youtube阿伟科技)
+      - 免费日本01-官网2：pianyijc.xyz
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_16
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - 油管阿伟科技_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_25
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - 低速备用-油管阿伟科技_2
+      - 🇨🇭_CH_瑞士
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_11
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_32
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本快|tg频道:@ripaojiedian
-      - SG新加坡(youtube阿伟科技)
-      - 油管阿伟科技_1
-      - HK香港(youtube阿伟科技)_1
-      - 油管阿伟科技_2
-      - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
-      - HK香港(youtube阿伟科技)_2
       - HK香港(youtube阿伟科技)_3
-      - HK香港(youtube阿伟科技)_4
       - 低速备用-油管阿伟科技_1
-      - 油管阿伟科技_3
       - 低速备用-油管阿伟科技_2
-      - 低速备用-油管阿伟科技_3
-      - 低速备用-油管阿伟科技_4
-      - JP日本(youtube阿伟科技)
       - US美国(youtube阿伟科技)_1
-      - US美国(youtube阿伟科技)_2
-      - 低速备用-油管阿伟科技_5
-      - 低速备用-油管阿伟科技_6
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_4
+      - HK香港(youtube阿伟科技)
+      - 日本快|tg频道:@ripaojiedian
+      - 油管阿伟科技_1
+      - 油管阿伟科技_2
+      - 低速备用-油管阿伟科技_1
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_14
+      - 美国(油管:破解资源君2.0)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_17
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_19
+      - 荷兰|tg频道:@ripaojiedian
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_7
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_13
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_23
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_24
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_21
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_20
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_15
+      - US美国(youtube阿伟科技)
+      - 免费日本01-官网2：pianyijc.xyz
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_16
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - 油管阿伟科技_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_25
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - 低速备用-油管阿伟科技_2
+      - 🇨🇭_CH_瑞士
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_11
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_32
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
     _index: 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 日本快|tg频道:@ripaojiedian
-      - SG新加坡(youtube阿伟科技)
-      - 油管阿伟科技_1
-      - HK香港(youtube阿伟科技)_1
-      - 油管阿伟科技_2
-      - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
-      - HK香港(youtube阿伟科技)_2
       - HK香港(youtube阿伟科技)_3
-      - HK香港(youtube阿伟科技)_4
       - 低速备用-油管阿伟科技_1
-      - 油管阿伟科技_3
       - 低速备用-油管阿伟科技_2
-      - 低速备用-油管阿伟科技_3
-      - 低速备用-油管阿伟科技_4
-      - JP日本(youtube阿伟科技)
       - US美国(youtube阿伟科技)_1
-      - US美国(youtube阿伟科技)_2
-      - 低速备用-油管阿伟科技_5
-      - 低速备用-油管阿伟科技_6
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_4
+      - HK香港(youtube阿伟科技)
+      - 日本快|tg频道:@ripaojiedian
+      - 油管阿伟科技_1
+      - 油管阿伟科技_2
+      - 低速备用-油管阿伟科技_1
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_14
+      - 美国(油管:破解资源君2.0)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_17
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_19
+      - 荷兰|tg频道:@ripaojiedian
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_7
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_13
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_23
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_24
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_21
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_20
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_15
+      - US美国(youtube阿伟科技)
+      - 免费日本01-官网2：pianyijc.xyz
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_16
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - 油管阿伟科技_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_25
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - 低速备用-油管阿伟科技_2
+      - 🇨🇭_CH_瑞士
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_11
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_32
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 日本快|tg频道:@ripaojiedian
-      - SG新加坡(youtube阿伟科技)
-      - 油管阿伟科技_1
-      - HK香港(youtube阿伟科技)_1
-      - 油管阿伟科技_2
-      - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
-      - HK香港(youtube阿伟科技)_2
       - HK香港(youtube阿伟科技)_3
-      - HK香港(youtube阿伟科技)_4
       - 低速备用-油管阿伟科技_1
-      - 油管阿伟科技_3
       - 低速备用-油管阿伟科技_2
-      - 低速备用-油管阿伟科技_3
-      - 低速备用-油管阿伟科技_4
-      - JP日本(youtube阿伟科技)
       - US美国(youtube阿伟科技)_1
-      - US美国(youtube阿伟科技)_2
-      - 低速备用-油管阿伟科技_5
-      - 低速备用-油管阿伟科技_6
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_4
+      - HK香港(youtube阿伟科技)
+      - 日本快|tg频道:@ripaojiedian
+      - 油管阿伟科技_1
+      - 油管阿伟科技_2
+      - 低速备用-油管阿伟科技_1
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_14
+      - 美国(油管:破解资源君2.0)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_17
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_19
+      - 荷兰|tg频道:@ripaojiedian
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_7
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_13
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_23
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_24
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_21
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_20
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_15
+      - US美国(youtube阿伟科技)
+      - 免费日本01-官网2：pianyijc.xyz
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_16
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - 油管阿伟科技_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_25
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - 低速备用-油管阿伟科技_2
+      - 🇨🇭_CH_瑞士
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_11
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_32
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 日本快|tg频道:@ripaojiedian
-      - SG新加坡(youtube阿伟科技)
-      - 油管阿伟科技_1
-      - HK香港(youtube阿伟科技)_1
-      - 油管阿伟科技_2
-      - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
-      - HK香港(youtube阿伟科技)_2
       - HK香港(youtube阿伟科技)_3
-      - HK香港(youtube阿伟科技)_4
       - 低速备用-油管阿伟科技_1
-      - 油管阿伟科技_3
       - 低速备用-油管阿伟科技_2
-      - 低速备用-油管阿伟科技_3
-      - 低速备用-油管阿伟科技_4
-      - JP日本(youtube阿伟科技)
       - US美国(youtube阿伟科技)_1
-      - US美国(youtube阿伟科技)_2
-      - 低速备用-油管阿伟科技_5
-      - 低速备用-油管阿伟科技_6
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_4
+      - HK香港(youtube阿伟科技)
+      - 日本快|tg频道:@ripaojiedian
+      - 油管阿伟科技_1
+      - 油管阿伟科技_2
+      - 低速备用-油管阿伟科技_1
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_14
+      - 美国(油管:破解资源君2.0)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_17
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_19
+      - 荷兰|tg频道:@ripaojiedian
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_7
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_13
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_23
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_24
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_21
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_20
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_15
+      - US美国(youtube阿伟科技)
+      - 免费日本01-官网2：pianyijc.xyz
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_16
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - 油管阿伟科技_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_25
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - 低速备用-油管阿伟科技_2
+      - 🇨🇭_CH_瑞士
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_11
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_32
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -175,26 +345,51 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 日本快|tg频道:@ripaojiedian
-      - SG新加坡(youtube阿伟科技)
-      - 油管阿伟科技_1
-      - HK香港(youtube阿伟科技)_1
-      - 油管阿伟科技_2
-      - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
-      - HK香港(youtube阿伟科技)_2
       - HK香港(youtube阿伟科技)_3
-      - HK香港(youtube阿伟科技)_4
       - 低速备用-油管阿伟科技_1
-      - 油管阿伟科技_3
       - 低速备用-油管阿伟科技_2
-      - 低速备用-油管阿伟科技_3
-      - 低速备用-油管阿伟科技_4
-      - JP日本(youtube阿伟科技)
       - US美国(youtube阿伟科技)_1
-      - US美国(youtube阿伟科技)_2
-      - 低速备用-油管阿伟科技_5
-      - 低速备用-油管阿伟科技_6
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_4
+      - HK香港(youtube阿伟科技)
+      - 日本快|tg频道:@ripaojiedian
+      - 油管阿伟科技_1
+      - 油管阿伟科技_2
+      - 低速备用-油管阿伟科技_1
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_14
+      - 美国(油管:破解资源君2.0)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_17
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_19
+      - 荷兰|tg频道:@ripaojiedian
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_7
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_13
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_23
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_24
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_21
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_20
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_15
+      - US美国(youtube阿伟科技)
+      - 免费日本01-官网2：pianyijc.xyz
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_16
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - 油管阿伟科技_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_25
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - 低速备用-油管阿伟科技_2
+      - 🇨🇭_CH_瑞士
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_11
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_32
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
     _index: 0
   - name: 🐟 漏网之鱼
     type: select
@@ -202,49 +397,99 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本快|tg频道:@ripaojiedian
-      - SG新加坡(youtube阿伟科技)
-      - 油管阿伟科技_1
-      - HK香港(youtube阿伟科技)_1
-      - 油管阿伟科技_2
-      - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
-      - HK香港(youtube阿伟科技)_2
       - HK香港(youtube阿伟科技)_3
-      - HK香港(youtube阿伟科技)_4
       - 低速备用-油管阿伟科技_1
-      - 油管阿伟科技_3
       - 低速备用-油管阿伟科技_2
-      - 低速备用-油管阿伟科技_3
-      - 低速备用-油管阿伟科技_4
-      - JP日本(youtube阿伟科技)
       - US美国(youtube阿伟科技)_1
-      - US美国(youtube阿伟科技)_2
-      - 低速备用-油管阿伟科技_5
-      - 低速备用-油管阿伟科技_6
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_4
+      - HK香港(youtube阿伟科技)
+      - 日本快|tg频道:@ripaojiedian
+      - 油管阿伟科技_1
+      - 油管阿伟科技_2
+      - 低速备用-油管阿伟科技_1
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_14
+      - 美国(油管:破解资源君2.0)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_17
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_19
+      - 荷兰|tg频道:@ripaojiedian
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_7
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_13
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_23
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_24
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_21
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_20
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_15
+      - US美国(youtube阿伟科技)
+      - 免费日本01-官网2：pianyijc.xyz
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_16
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - 油管阿伟科技_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_25
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - 低速备用-油管阿伟科技_2
+      - 🇨🇭_CH_瑞士
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_11
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_32
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: 负载均衡
     proxies:
       - ♻️ 自动选择
-      - 日本快|tg频道:@ripaojiedian
-      - SG新加坡(youtube阿伟科技)
-      - 油管阿伟科技_1
-      - HK香港(youtube阿伟科技)_1
-      - 油管阿伟科技_2
-      - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
-      - HK香港(youtube阿伟科技)_2
       - HK香港(youtube阿伟科技)_3
-      - HK香港(youtube阿伟科技)_4
       - 低速备用-油管阿伟科技_1
-      - 油管阿伟科技_3
       - 低速备用-油管阿伟科技_2
-      - 低速备用-油管阿伟科技_3
-      - 低速备用-油管阿伟科技_4
-      - JP日本(youtube阿伟科技)
       - US美国(youtube阿伟科技)_1
-      - US美国(youtube阿伟科技)_2
-      - 低速备用-油管阿伟科技_5
-      - 低速备用-油管阿伟科技_6
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_4
+      - HK香港(youtube阿伟科技)
+      - 日本快|tg频道:@ripaojiedian
+      - 油管阿伟科技_1
+      - 油管阿伟科技_2
+      - 低速备用-油管阿伟科技_1
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_14
+      - 美国(油管:破解资源君2.0)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_17
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_19
+      - 荷兰|tg频道:@ripaojiedian
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_7
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_13
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_23
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_24
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_21
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_29
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_20
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_27
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_15
+      - US美国(youtube阿伟科技)
+      - 免费日本01-官网2：pianyijc.xyz
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_16
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_26
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - 油管阿伟科技_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_25
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
+      - HK_香港_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
+      - 低速备用-油管阿伟科技_2
+      - 🇨🇭_CH_瑞士
+      - CN_中国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_11
+      - 欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_32
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 600
