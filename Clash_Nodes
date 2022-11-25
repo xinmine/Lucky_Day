@@ -5,10 +5,26 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"香港中转|tg频道:@ripaojiedian","ws-opts":{"path":"/qingzhuanduoyun","headers":{"host":"a.189.cn"}},"server":"110.80.3.4","port":"25026","uuid":"1cba22dc-c942-45dc-ab53-5cfc04ef8520","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"日本快|tg频道:@ripaojiedian","server":"jp.liangyuandian.top","port":443,"password":"92686865-4cda-49a9-88af-c2c811db3403","udp":true,"skip-cert-verify":true,"sni":"jp.liangyuandian.top"}
+  - {"type":"vmess","name":"SG新加坡(youtube阿伟科技)","ws-opts":{"path":"/qingzhuanduoyun","headers":{"host":"a.189.cn"}},"server":"110.80.3.4","port":"25028","uuid":"1cba22dc-c942-45dc-ab53-5cfc04ef8520","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"油管阿伟科技_1","server":"dosg.securevpn.cc","port":1020,"cipher":"aes-128-gcm","password":"202211000000000000000020"}
+  - {"type":"vmess","name":"HK香港(youtube阿伟科技)_1","ws-opts":{"path":"/qingzhuanduoyun","headers":{"host":"a.189.cn"}},"server":"110.80.3.4","port":"25026","uuid":"1cba22dc-c942-45dc-ab53-5cfc04ef8520","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"油管阿伟科技_2","server":"yydsdy.top","port":20000,"cipher":"chacha20-ietf-poly1305","password":"Dwz4t1EJg0obH8oCuMjFcDheszcYC7yZXtyi6Vj6CbQk"}
   - {"type":"vmess","name":"荷兰|tg频道:@ripaojiedian","ws-opts":{"path":"/lXvA0Vse/","headers":{"host":"hl1.cachexy.ga"}},"server":"104.29.64.24","port":"80","uuid":"3f421e27-5bf8-40c9-86cb-7b8c41dddea2","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"免费日本01-官网2：pianyijc.xyz","ws-opts":{"path":"/sometimesnaive","headers":{"host":"m2.pianyijc.top"}},"server":"m2.pianyijc.top","port":"31211","uuid":"fac77864-c6f5-4c8d-84a1-f49fddd8a137","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HK香港(youtube阿伟科技)_2","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25897","uuid":"761195f3-df19-4d48-9d98-8fdf2a687103","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HK香港(youtube阿伟科技)_3","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25897","uuid":"8b1b6169-d4af-474c-826d-5e7b3308ab26","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HK香港(youtube阿伟科技)_4","ws-opts":{"path":"/qingzhuanduoyun","headers":{"host":"%7B%22Host%22:%22a.189.cn%22%7D"}},"server":"110.80.3.4","port":"25026","uuid":"1cba22dc-c942-45dc-ab53-5cfc04ef8520","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"低速备用-油管阿伟科技_1","server":"219.76.13.181","port":443,"password":"SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ","udp":true,"skip-cert-verify":true,"sni":"arbettp.freetrade.link"}
+  - {"type":"ss","name":"油管阿伟科技_3","server":"sg.securevpn.cc","port":1020,"cipher":"aes-128-gcm","password":"202211000000000000000020"}
+  - {"type":"vmess","name":"低速备用-油管阿伟科技_2","ws-opts":{"path":"/vpndata.shop"},"server":"103.161.112.225","port":"80","uuid":"fc49716a-3594-47b2-8667-0bfba2a88e60","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"低速备用-油管阿伟科技_3","ws-opts":{"path":"/fhf5hfth565fhtf","headers":{"host":"king2.mmadserr.ml"}},"server":"king2.mmadserr.ml","port":"2095","uuid":"dabdbbec-f774-41ff-a296-18026f469a97","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"低速备用-油管阿伟科技_4","ws-opts":{"path":"/","headers":{"host":"26.72img.xyz"}},"server":"26.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"JP日本(youtube阿伟科技)","ws-opts":{"path":"/qingzhuanduoyun","headers":{"host":"%7B%22Host%22:%22a.189.cn%22%7D"}},"server":"110.80.3.4","port":"25027","uuid":"1cba22dc-c942-45dc-ab53-5cfc04ef8520","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_1","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"34.145.145.76","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_2","ws-opts":{"path":"/","headers":{"host":"33.72img.xyz"}},"server":"33.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"低速备用-油管阿伟科技_5","ws-opts":{"path":"/","headers":{"host":"54.72img.xyz"}},"server":"54.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"低速备用-油管阿伟科技_6","ws-opts":{"path":"/","headers":{"host":"14.72img.xyz"}},"server":"14.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
@@ -16,48 +32,128 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 香港中转|tg频道:@ripaojiedian
       - 日本快|tg频道:@ripaojiedian
+      - SG新加坡(youtube阿伟科技)
+      - 油管阿伟科技_1
+      - HK香港(youtube阿伟科技)_1
+      - 油管阿伟科技_2
       - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
+      - HK香港(youtube阿伟科技)_2
+      - HK香港(youtube阿伟科技)_3
+      - HK香港(youtube阿伟科技)_4
+      - 低速备用-油管阿伟科技_1
+      - 油管阿伟科技_3
+      - 低速备用-油管阿伟科技_2
+      - 低速备用-油管阿伟科技_3
+      - 低速备用-油管阿伟科技_4
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - 低速备用-油管阿伟科技_5
+      - 低速备用-油管阿伟科技_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港中转|tg频道:@ripaojiedian
       - 日本快|tg频道:@ripaojiedian
+      - SG新加坡(youtube阿伟科技)
+      - 油管阿伟科技_1
+      - HK香港(youtube阿伟科技)_1
+      - 油管阿伟科技_2
       - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
+      - HK香港(youtube阿伟科技)_2
+      - HK香港(youtube阿伟科技)_3
+      - HK香港(youtube阿伟科技)_4
+      - 低速备用-油管阿伟科技_1
+      - 油管阿伟科技_3
+      - 低速备用-油管阿伟科技_2
+      - 低速备用-油管阿伟科技_3
+      - 低速备用-油管阿伟科技_4
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - 低速备用-油管阿伟科技_5
+      - 低速备用-油管阿伟科技_6
     _index: 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港中转|tg频道:@ripaojiedian
       - 日本快|tg频道:@ripaojiedian
+      - SG新加坡(youtube阿伟科技)
+      - 油管阿伟科技_1
+      - HK香港(youtube阿伟科技)_1
+      - 油管阿伟科技_2
       - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
+      - HK香港(youtube阿伟科技)_2
+      - HK香港(youtube阿伟科技)_3
+      - HK香港(youtube阿伟科技)_4
+      - 低速备用-油管阿伟科技_1
+      - 油管阿伟科技_3
+      - 低速备用-油管阿伟科技_2
+      - 低速备用-油管阿伟科技_3
+      - 低速备用-油管阿伟科技_4
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - 低速备用-油管阿伟科技_5
+      - 低速备用-油管阿伟科技_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港中转|tg频道:@ripaojiedian
       - 日本快|tg频道:@ripaojiedian
+      - SG新加坡(youtube阿伟科技)
+      - 油管阿伟科技_1
+      - HK香港(youtube阿伟科技)_1
+      - 油管阿伟科技_2
       - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
+      - HK香港(youtube阿伟科技)_2
+      - HK香港(youtube阿伟科技)_3
+      - HK香港(youtube阿伟科技)_4
+      - 低速备用-油管阿伟科技_1
+      - 油管阿伟科技_3
+      - 低速备用-油管阿伟科技_2
+      - 低速备用-油管阿伟科技_3
+      - 低速备用-油管阿伟科技_4
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - 低速备用-油管阿伟科技_5
+      - 低速备用-油管阿伟科技_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港中转|tg频道:@ripaojiedian
       - 日本快|tg频道:@ripaojiedian
+      - SG新加坡(youtube阿伟科技)
+      - 油管阿伟科技_1
+      - HK香港(youtube阿伟科技)_1
+      - 油管阿伟科技_2
       - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
+      - HK香港(youtube阿伟科技)_2
+      - HK香港(youtube阿伟科技)_3
+      - HK香港(youtube阿伟科技)_4
+      - 低速备用-油管阿伟科技_1
+      - 油管阿伟科技_3
+      - 低速备用-油管阿伟科技_2
+      - 低速备用-油管阿伟科技_3
+      - 低速备用-油管阿伟科技_4
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - 低速备用-油管阿伟科技_5
+      - 低速备用-油管阿伟科技_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,10 +175,26 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港中转|tg频道:@ripaojiedian
       - 日本快|tg频道:@ripaojiedian
+      - SG新加坡(youtube阿伟科技)
+      - 油管阿伟科技_1
+      - HK香港(youtube阿伟科技)_1
+      - 油管阿伟科技_2
       - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
+      - HK香港(youtube阿伟科技)_2
+      - HK香港(youtube阿伟科技)_3
+      - HK香港(youtube阿伟科技)_4
+      - 低速备用-油管阿伟科技_1
+      - 油管阿伟科技_3
+      - 低速备用-油管阿伟科技_2
+      - 低速备用-油管阿伟科技_3
+      - 低速备用-油管阿伟科技_4
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - 低速备用-油管阿伟科技_5
+      - 低速备用-油管阿伟科技_6
     _index: 0
   - name: 🐟 漏网之鱼
     type: select
@@ -90,17 +202,49 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港中转|tg频道:@ripaojiedian
       - 日本快|tg频道:@ripaojiedian
+      - SG新加坡(youtube阿伟科技)
+      - 油管阿伟科技_1
+      - HK香港(youtube阿伟科技)_1
+      - 油管阿伟科技_2
       - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
+      - HK香港(youtube阿伟科技)_2
+      - HK香港(youtube阿伟科技)_3
+      - HK香港(youtube阿伟科技)_4
+      - 低速备用-油管阿伟科技_1
+      - 油管阿伟科技_3
+      - 低速备用-油管阿伟科技_2
+      - 低速备用-油管阿伟科技_3
+      - 低速备用-油管阿伟科技_4
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - 低速备用-油管阿伟科技_5
+      - 低速备用-油管阿伟科技_6
   - name: 负载均衡
     proxies:
       - ♻️ 自动选择
-      - 香港中转|tg频道:@ripaojiedian
       - 日本快|tg频道:@ripaojiedian
+      - SG新加坡(youtube阿伟科技)
+      - 油管阿伟科技_1
+      - HK香港(youtube阿伟科技)_1
+      - 油管阿伟科技_2
       - 荷兰|tg频道:@ripaojiedian
       - 免费日本01-官网2：pianyijc.xyz
+      - HK香港(youtube阿伟科技)_2
+      - HK香港(youtube阿伟科技)_3
+      - HK香港(youtube阿伟科技)_4
+      - 低速备用-油管阿伟科技_1
+      - 油管阿伟科技_3
+      - 低速备用-油管阿伟科技_2
+      - 低速备用-油管阿伟科技_3
+      - 低速备用-油管阿伟科技_4
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - 低速备用-油管阿伟科技_5
+      - 低速备用-油管阿伟科技_6
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 600
