@@ -4,6 +4,13 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
+dns:
+  enable: true #开启dns
+  listen: 0.0.0.0:53 #监听任意网络dns请求，防止dns污染
+  enhanced-mode: redir-host   #fake ip返回一个假IP
+  default-nameserver: [119.29.29.29,223.5.5.5,1.2.4.8] #解析nameserver和fallback使用域名的dns服务器
+  nameserver: [https://sm2.doh.pub/dns-query,https://dns.alidns.com/dns-query] #与fallback并发执行，解析国内域名
+  fallback: [8.8.8.8,208.67.222.222,1.0.0.1] #与nameserver并发执行，根据CN判断国内外取最快结果，处理国外域名
 proxies:
   - type: vmess
     name: 关注频道更多福利
@@ -42,15 +49,121 @@ proxies:
     alterId: "0"
     cipher: auto
     network: ws
-  - {"type":"vmess","name":"bossxin-serverssh.net(SG-2)","grpc-opts":{"grpc-service-name":"grpc"},"server":"172.64.159.25","port":"443","uuid":"4e86d9c8-60b6-4b6f-8f38-05507ba04264","alterId":"0","cipher":"auto","network":"grpc","tls":true}
-  - {"type":"vmess","name":"opentunnel.net-bossxin(DEV-1)","ws-opts":{"path":"/opentunnel?user=opentunnel.net-bossxin","headers":{"host":"dev-1.openv2ray.com"}},"server":"104.17.62.25","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"opentunnel.net-bossxin(IDV-1)","ws-opts":{"path":"/opentunnel?user=opentunnel.net-bossxin","headers":{"host":"idv-1.openv2ray.com"}},"server":"104.17.181.93","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"opentunnel.net-bossxin(USV-1)","ws-opts":{"path":"/opentunnel?user=opentunnel.net-bossxin","headers":{"host":"usv-1.openv2ray.com"}},"server":"172.64.159.25","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"sshocean-bossxin(CA-2)","ws-opts":{"path":"/sshocean","headers":{"host":"ca2.v2rayserv.com"}},"server":"104.17.181.93","port":"443","uuid":"fa8baefb-e45a-4bf7-84c5-7a032e030417","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"sshocean-bossxin(FR-2)","ws-opts":{"path":"/sshocean","headers":{"host":"fr2.v2rayserv.com"}},"server":"172.64.147.18","port":"443","uuid":"d1f92a06-478a-431e-95c3-80b4a93dedbf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"sshocean-bossxin(HK-1)","ws-opts":{"path":"/sshocean","headers":{"host":"hk1.v2rayserv.com"}},"server":"104.17.181.93","port":"443","uuid":"73704456-dd35-42f6-8d00-83f6f065f18e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"sshocean-bossxin(US-4)","ws-opts":{"path":"/sshocean","headers":{"host":"us4.v2rayserv.com"}},"server":"104.17.54.43","port":"443","uuid":"5b1564a4-aa92-4afa-add1-536710538fab","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"sshocean-bossxin(VN-1)","ws-opts":{"path":"/sshocean","headers":{"host":"vn1.v2rayserv.com"}},"server":"104.17.62.25","port":"443","uuid":"a61ea908-25a7-4a69-8496-febf3b7c2547","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - type: vmess
+    name: bossxin-serverssh.net(SG-2)
+    grpc-opts:
+      grpc-service-name: grpc
+    server: 172.64.159.25
+    port: "443"
+    uuid: 4e86d9c8-60b6-4b6f-8f38-05507ba04264
+    alterId: "0"
+    cipher: auto
+    network: grpc
+    tls: true
+  - type: vmess
+    name: opentunnel.net-bossxin(DEV-1)
+    ws-opts:
+      path: /opentunnel?user=opentunnel.net-bossxin
+      headers:
+        host: dev-1.openv2ray.com
+    server: 104.17.62.25
+    port: "443"
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: "16"
+    cipher: auto
+    network: ws
+    tls: true
+  - type: vmess
+    name: opentunnel.net-bossxin(IDV-1)
+    ws-opts:
+      path: /opentunnel?user=opentunnel.net-bossxin
+      headers:
+        host: idv-1.openv2ray.com
+    server: 104.17.181.93
+    port: "443"
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: "16"
+    cipher: auto
+    network: ws
+    tls: true
+  - type: vmess
+    name: opentunnel.net-bossxin(USV-1)
+    ws-opts:
+      path: /opentunnel?user=opentunnel.net-bossxin
+      headers:
+        host: usv-1.openv2ray.com
+    server: 172.64.159.25
+    port: "443"
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: "16"
+    cipher: auto
+    network: ws
+    tls: true
+  - type: vmess
+    name: sshocean-bossxin(CA-2)
+    ws-opts:
+      path: /sshocean
+      headers:
+        host: ca2.v2rayserv.com
+    server: 104.17.181.93
+    port: "443"
+    uuid: fa8baefb-e45a-4bf7-84c5-7a032e030417
+    alterId: "0"
+    cipher: auto
+    network: ws
+    tls: true
+  - type: vmess
+    name: sshocean-bossxin(FR-2)
+    ws-opts:
+      path: /sshocean
+      headers:
+        host: fr2.v2rayserv.com
+    server: 172.64.147.18
+    port: "443"
+    uuid: d1f92a06-478a-431e-95c3-80b4a93dedbf
+    alterId: "0"
+    cipher: auto
+    network: ws
+    tls: true
+  - type: vmess
+    name: sshocean-bossxin(HK-1)
+    ws-opts:
+      path: /sshocean
+      headers:
+        host: hk1.v2rayserv.com
+    server: 104.17.181.93
+    port: "443"
+    uuid: 73704456-dd35-42f6-8d00-83f6f065f18e
+    alterId: "0"
+    cipher: auto
+    network: ws
+    tls: true
+  - type: vmess
+    name: sshocean-bossxin(US-4)
+    ws-opts:
+      path: /sshocean
+      headers:
+        host: us4.v2rayserv.com
+    server: 104.17.54.43
+    port: "443"
+    uuid: 5b1564a4-aa92-4afa-add1-536710538fab
+    alterId: "0"
+    cipher: auto
+    network: ws
+    tls: true
+  - type: vmess
+    name: sshocean-bossxin(VN-1)
+    ws-opts:
+      path: /sshocean
+      headers:
+        host: vn1.v2rayserv.com
+    server: 104.17.62.25
+    port: "443"
+    uuid: a61ea908-25a7-4a69-8496-febf3b7c2547
+    alterId: "0"
+    cipher: auto
+    network: ws
+    tls: true
 proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
@@ -201,7 +314,6 @@ proxy-groups:
       - sshocean-bossxin(VN-1)
   - name: 负载均衡
     proxies:
-      - ♻️ 自动选择
       - 关注频道更多福利
       - 🇳🇱NL_211
       - 东京|tg频道:@ripaojiedian
