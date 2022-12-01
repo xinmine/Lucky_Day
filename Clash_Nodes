@@ -99,6 +99,11 @@ proxies:
     port: 40539
     cipher: chacha20-ietf-poly1305
     password: 0d1c10c3-3e60-44fc-a942-8604e7af5bc7
+      - {"type":"vmess","name":"opentunnel.net-bossxin(DEV-1)","ws-opts":{"path":"/opentunnel?user=opentunnel.net-bossxin","headers":{"host":"dev-1.openv2ray.com"}},"server":"104.17.62.25","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"opentunnel.net-bossxin(IDV-1)","ws-opts":{"path":"/opentunnel?user=opentunnel.net-bossxin","headers":{"host":"idv-1.openv2ray.com"}},"server":"104.17.181.93","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"opentunnel.net-bossxin(USV-1)","ws-opts":{"path":"/opentunnel?user=opentunnel.net-bossxin","headers":{"host":"usv-1.openv2ray.com"}},"server":"172.64.159.25","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"sshocean-bossxin(HK-1)","ws-opts":{"path":"/sshocean","headers":{"host":"hk1.v2rayserv.com"}},"server":"104.17.181.93","port":"443","uuid":"73704456-dd35-42f6-8d00-83f6f065f18e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"sshocean-bossxin(US-4)","ws-opts":{"path":"/sshocean","headers":{"host":"us4.v2rayserv.com"}},"server":"172.64.159.25","port":"443","uuid":"5b1564a4-aa92-4afa-add1-536710538fab","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
@@ -106,6 +111,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - opentunnel.net-bossxin(DEV-1)
+      - opentunnel.net-bossxin(IDV-1)
+      - opentunnel.net-bossxin(USV-1)
+      - sshocean-bossxin(HK-1)
+      - sshocean-bossxin(US-4)
       - 日本jp|tg频道:@ripaojiedian
       - 香港快|tg频道:@ripaojiedian
       - 关注频道更多福利
@@ -121,6 +131,11 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - opentunnel.net-bossxin(DEV-1)
+      - opentunnel.net-bossxin(IDV-1)
+      - opentunnel.net-bossxin(USV-1)
+      - sshocean-bossxin(HK-1)
+      - sshocean-bossxin(US-4)
       - 日本jp|tg频道:@ripaojiedian
       - 香港快|tg频道:@ripaojiedian
       - 关注频道更多福利
@@ -136,6 +151,11 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - opentunnel.net-bossxin(DEV-1)
+      - opentunnel.net-bossxin(IDV-1)
+      - opentunnel.net-bossxin(USV-1)
+      - sshocean-bossxin(HK-1)
+      - sshocean-bossxin(US-4)
       - 日本jp|tg频道:@ripaojiedian
       - 香港快|tg频道:@ripaojiedian
       - 关注频道更多福利
@@ -150,6 +170,11 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - opentunnel.net-bossxin(DEV-1)
+      - opentunnel.net-bossxin(IDV-1)
+      - opentunnel.net-bossxin(USV-1)
+      - sshocean-bossxin(HK-1)
+      - sshocean-bossxin(US-4)
       - 日本jp|tg频道:@ripaojiedian
       - 香港快|tg频道:@ripaojiedian
       - 关注频道更多福利
@@ -164,6 +189,11 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - opentunnel.net-bossxin(DEV-1)
+      - opentunnel.net-bossxin(IDV-1)
+      - opentunnel.net-bossxin(USV-1)
+      - sshocean-bossxin(HK-1)
+      - sshocean-bossxin(US-4)
       - 日本jp|tg频道:@ripaojiedian
       - 香港快|tg频道:@ripaojiedian
       - 关注频道更多福利
@@ -194,6 +224,11 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - opentunnel.net-bossxin(DEV-1)
+      - opentunnel.net-bossxin(IDV-1)
+      - opentunnel.net-bossxin(USV-1)
+      - sshocean-bossxin(HK-1)
+      - sshocean-bossxin(US-4)
       - 日本jp|tg频道:@ripaojiedian
       - 香港快|tg频道:@ripaojiedian
       - 关注频道更多福利
@@ -210,6 +245,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - opentunnel.net-bossxin(DEV-1)
+      - opentunnel.net-bossxin(IDV-1)
+      - opentunnel.net-bossxin(USV-1)
+      - sshocean-bossxin(HK-1)
+      - sshocean-bossxin(US-4)
       - 日本jp|tg频道:@ripaojiedian
       - 香港快|tg频道:@ripaojiedian
       - 关注频道更多福利
@@ -222,6 +262,11 @@ proxy-groups:
   - name: 负载均衡
     proxies:
       - ♻️ 自动选择
+      - opentunnel.net-bossxin(DEV-1)
+      - opentunnel.net-bossxin(IDV-1)
+      - opentunnel.net-bossxin(USV-1)
+      - sshocean-bossxin(HK-1)
+      - sshocean-bossxin(US-4)
       - 日本jp|tg频道:@ripaojiedian
       - 香港快|tg频道:@ripaojiedian
       - 关注频道更多福利
