@@ -14,7 +14,6 @@ dns:
   #指定解析国外域名时使用的加密 DNS 服务器地址，并设置分流规则
   fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
   fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
-
 proxies:
   - type: vmess
     name: vmess-ws-tls(SG-2)
@@ -250,32 +249,6 @@ proxies:
     cipher: auto
     network: ws
     tls: true
-  - type: vmess
-    name: sshocean-bossxin(FR-2)
-    ws-opts:
-      path: /sshocean
-      headers:
-        host: fr2.v2rayserv.com
-    server: 198.41.208.129
-    port: "443"
-    uuid: d1f92a06-478a-431e-95c3-80b4a93dedbf
-    alterId: "0"
-    cipher: auto
-    network: ws
-    tls: true
-  - type: vmess
-    name: opentunnel.net-bossxin(IDV-1)
-    ws-opts:
-      path: /opentunnel?user=opentunnel.net-bossxin
-      headers:
-        host: idv-1.openv2ray.com
-    server: 104.17.126.27
-    port: "443"
-    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-    alterId: "16"
-    cipher: auto
-    network: ws
-    tls: true
 proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
@@ -301,8 +274,6 @@ proxy-groups:
       - sshocean-bossxin(US-4)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
-      - sshocean-bossxin(FR-2)
-      - opentunnel.net-bossxin(IDV-1)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -328,8 +299,6 @@ proxy-groups:
       - sshocean-bossxin(US-4)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
-      - sshocean-bossxin(FR-2)
-      - opentunnel.net-bossxin(IDV-1)
     _index: 1
   - name: 📲 电报信息
     type: select
@@ -355,8 +324,6 @@ proxy-groups:
       - sshocean-bossxin(US-4)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
-      - sshocean-bossxin(FR-2)
-      - opentunnel.net-bossxin(IDV-1)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -381,8 +348,6 @@ proxy-groups:
       - sshocean-bossxin(US-4)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
-      - sshocean-bossxin(FR-2)
-      - opentunnel.net-bossxin(IDV-1)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -407,8 +372,6 @@ proxy-groups:
       - sshocean-bossxin(US-4)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
-      - sshocean-bossxin(FR-2)
-      - opentunnel.net-bossxin(IDV-1)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -450,8 +413,6 @@ proxy-groups:
       - sshocean-bossxin(US-4)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
-      - sshocean-bossxin(FR-2)
-      - opentunnel.net-bossxin(IDV-1)
     _index: 0
   - name: 🐟 漏网之鱼
     type: select
@@ -478,8 +439,6 @@ proxy-groups:
       - sshocean-bossxin(US-4)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
-      - sshocean-bossxin(FR-2)
-      - opentunnel.net-bossxin(IDV-1)
   - name: 负载均衡
     proxies:
       - vmess-ws-tls(SG-2)
@@ -500,8 +459,6 @@ proxy-groups:
       - sshocean-bossxin(US-4)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
-      - sshocean-bossxin(FR-2)
-      - opentunnel.net-bossxin(IDV-1)
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 600
