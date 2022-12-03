@@ -20,6 +20,16 @@ dns:
     - 208.67.222.222
     - 1.0.0.1
 proxies:
+  - {"type":"vmess","name":"vmess-ws-tls(SG-2)","ws-opts":{"path":"/racevpn","headers":{"host":"sg2-full.privateip.net"}},"server":"104.17.126.27","port":"443","uuid":"74690ff5-a75e-4f3d-970c-c7066d43150c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HK-1","ws-opts":{"path":"/vmess","headers":{"host":"hk.vmess1.xservs.xyz"}},"server":"hk.vmess1.xservs.xyz","port":"443","uuid":"c5181842-ec8d-4ba4-8ecf-af9ed9dc04fd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"vmess-ws-tls(VN)","ws-opts":{"path":"/racevpn","headers":{"host":"vn-full.privateip.net"}},"server":"104.16.243.66","port":"443","uuid":"b85b92c3-40ef-40a5-ba4f-e58d9e85bd83","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"vmess-ws-tls(UK-2)","ws-opts":{"path":"/racevpn","headers":{"host":"uk2-full.privateip.net"}},"server":"104.16.202.85","port":"443","uuid":"8be5e0b1-01f8-4286-ad38-d96acb131122","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"vmess-ws-tls(US-2)","ws-opts":{"path":"/racevpn","headers":{"host":"us2-full.privateip.net"}},"server":"104.16.100.217","port":"443","uuid":"cb3e1754-f97e-47d7-b66a-36e1e5bb4187","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"vmess-ws-tls(DE-2)","ws-opts":{"path":"/racevpn","headers":{"host":"de2-full.privateip.net"}},"server":"104.16.150.36","port":"443","uuid":"c542863d-a4f2-405f-8699-0fdfd391f456","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"vmess-ws-tls(NL-2)","ws-opts":{"path":"/racevpn","headers":{"host":"nl2-full.privateip.net"}},"server":"104.16.246.233","port":"443","uuid":"bc12f455-0800-4242-906e-42fa508d3106","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"vmess-ws-tls(CA)","ws-opts":{"path":"/racevpn","headers":{"host":"ca-full.privateip.net"}},"server":"172.64.148.253","port":"443","uuid":"38330f94-96d7-4c31-ae85-4cd0d3dbce3d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US-2","ws-opts":{"path":"/vmess","headers":{"host":"us.vmess2.xservs.xyz"}},"server":"us.vmess2.xservs.xyz","port":"443","uuid":"e0774dcf-ab31-4271-ab8d-1f6af64246d1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"sshocean-bossxin(MD-1)","ws-opts":{"path":"/sshocean","headers":{"host":"md1.v2rayserv.com"}},"server":"172.64.148.253","port":"443","uuid":"37ce24a2-674c-40da-9039-e4b5ff30b7ea","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - type: vmess
     name: opentunnel.net-bossxin(AUV)
     ws-opts:
@@ -46,19 +56,6 @@ proxies:
     cipher: auto
     network: ws
     tls: true
-  - name: sshocean-bossxin(MD-1)
-    type: vmess
-    server: 104.17.117.251
-    port: "443"
-    uuid: 7509d005-bf4f-4ca9-b765-b83ac3c7aa0b
-    alterId: "0"
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /sshocean
-      headers:
-        host: md1.v2rayserv.com
   - name: sshocean-bossxin(KZ-1)
     type: vmess
     server: 104.17.121.110
@@ -72,14 +69,6 @@ proxies:
       path: /sshocean
       headers:
         host: kz1.v2rayserv.com
-  - name: bossxin-serverssh.net(SG-2)
-    type: vmess
-    server: 104.17.148.20
-    port: "443"
-    uuid: 4e86d9c8-60b6-4b6f-8f38-05507ba04264
-    alterId: "0"
-    cipher: auto
-    tls: true
   - type: vmess
     name: opentunnel.net-bossxin(DEV-1)
     ws-opts:
@@ -120,19 +109,6 @@ proxies:
       path: /opentunnel?user=opentunnel.net-bossxin
       headers:
         host: usv-1.openv2ray.com
-  - name: sshocean-bossxin(CA-2)
-    type: vmess
-    server: 104.19.158.47
-    port: "443"
-    uuid: fa8baefb-e45a-4bf7-84c5-7a032e030417
-    alterId: "0"
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /sshocean
-      headers:
-        host: ca2.v2rayserv.com
   - name: sshocean-bossxin(FR-2)
     type: vmess
     server: 104.16.80.42
@@ -192,11 +168,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - bossxin-serverssh.net(SG-2)
       - opentunnel.net-bossxin(DEV-1)
       - opentunnel.net-bossxin(IDV-1)
       - opentunnel.net-bossxin(USV-1)
-      - sshocean-bossxin(CA-2)
       - sshocean-bossxin(FR-2)
       - sshocean-bossxin(HK-1)
       - sshocean-bossxin(US-4)
@@ -205,6 +179,15 @@ proxy-groups:
       - jagoanssh-bossxin-JAGOANSSH(GE)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
+      - vmess-ws-tls(SG-2)
+      - HK-1
+      - vmess-ws-tls(VN)
+      - vmess-ws-tls(UK-2)
+      - vmess-ws-tls(US-2)
+      - vmess-ws-tls(DE-2)
+      - vmess-ws-tls(NL-2)
+      - vmess-ws-tls(CA)
+      - US-2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -212,11 +195,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 负载均衡
-      - bossxin-serverssh.net(SG-2)
       - opentunnel.net-bossxin(DEV-1)
       - opentunnel.net-bossxin(IDV-1)
       - opentunnel.net-bossxin(USV-1)
-      - sshocean-bossxin(CA-2)
       - sshocean-bossxin(FR-2)
       - sshocean-bossxin(HK-1)
       - sshocean-bossxin(US-4)
@@ -225,6 +206,15 @@ proxy-groups:
       - jagoanssh-bossxin-JAGOANSSH(GE)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
+      - vmess-ws-tls(SG-2)
+      - HK-1
+      - vmess-ws-tls(VN)
+      - vmess-ws-tls(UK-2)
+      - vmess-ws-tls(US-2)
+      - vmess-ws-tls(DE-2)
+      - vmess-ws-tls(NL-2)
+      - vmess-ws-tls(CA)
+      - US-2
     _index: 1
   - name: 📲 电报信息
     type: select
@@ -232,11 +222,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 负载均衡
-      - bossxin-serverssh.net(SG-2)
       - opentunnel.net-bossxin(DEV-1)
       - opentunnel.net-bossxin(IDV-1)
       - opentunnel.net-bossxin(USV-1)
-      - sshocean-bossxin(CA-2)
       - sshocean-bossxin(FR-2)
       - sshocean-bossxin(HK-1)
       - sshocean-bossxin(US-4)
@@ -245,17 +233,24 @@ proxy-groups:
       - jagoanssh-bossxin-JAGOANSSH(GE)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
+      - vmess-ws-tls(SG-2)
+      - HK-1
+      - vmess-ws-tls(VN)
+      - vmess-ws-tls(UK-2)
+      - vmess-ws-tls(US-2)
+      - vmess-ws-tls(DE-2)
+      - vmess-ws-tls(NL-2)
+      - vmess-ws-tls(CA)
+      - US-2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 负载均衡
-      - bossxin-serverssh.net(SG-2)
       - opentunnel.net-bossxin(DEV-1)
       - opentunnel.net-bossxin(IDV-1)
       - opentunnel.net-bossxin(USV-1)
-      - sshocean-bossxin(CA-2)
       - sshocean-bossxin(FR-2)
       - sshocean-bossxin(HK-1)
       - sshocean-bossxin(US-4)
@@ -264,17 +259,24 @@ proxy-groups:
       - jagoanssh-bossxin-JAGOANSSH(GE)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
+      - vmess-ws-tls(SG-2)
+      - HK-1
+      - vmess-ws-tls(VN)
+      - vmess-ws-tls(UK-2)
+      - vmess-ws-tls(US-2)
+      - vmess-ws-tls(DE-2)
+      - vmess-ws-tls(NL-2)
+      - vmess-ws-tls(CA)
+      - US-2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 负载均衡
-      - bossxin-serverssh.net(SG-2)
       - opentunnel.net-bossxin(DEV-1)
       - opentunnel.net-bossxin(IDV-1)
       - opentunnel.net-bossxin(USV-1)
-      - sshocean-bossxin(CA-2)
       - sshocean-bossxin(FR-2)
       - sshocean-bossxin(HK-1)
       - sshocean-bossxin(US-4)
@@ -283,6 +285,15 @@ proxy-groups:
       - jagoanssh-bossxin-JAGOANSSH(GE)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
+      - vmess-ws-tls(SG-2)
+      - HK-1
+      - vmess-ws-tls(VN)
+      - vmess-ws-tls(UK-2)
+      - vmess-ws-tls(US-2)
+      - vmess-ws-tls(DE-2)
+      - vmess-ws-tls(NL-2)
+      - vmess-ws-tls(CA)
+      - US-2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -305,11 +316,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 负载均衡
-      - bossxin-serverssh.net(SG-2)
       - opentunnel.net-bossxin(DEV-1)
       - opentunnel.net-bossxin(IDV-1)
       - opentunnel.net-bossxin(USV-1)
-      - sshocean-bossxin(CA-2)
       - sshocean-bossxin(FR-2)
       - sshocean-bossxin(HK-1)
       - sshocean-bossxin(US-4)
@@ -318,6 +327,15 @@ proxy-groups:
       - jagoanssh-bossxin-JAGOANSSH(GE)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
+      - vmess-ws-tls(SG-2)
+      - HK-1
+      - vmess-ws-tls(VN)
+      - vmess-ws-tls(UK-2)
+      - vmess-ws-tls(US-2)
+      - vmess-ws-tls(DE-2)
+      - vmess-ws-tls(NL-2)
+      - vmess-ws-tls(CA)
+      - US-2
     _index: 0
   - name: 🐟 漏网之鱼
     type: select
@@ -326,11 +344,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 负载均衡
-      - bossxin-serverssh.net(SG-2)
       - opentunnel.net-bossxin(DEV-1)
       - opentunnel.net-bossxin(IDV-1)
       - opentunnel.net-bossxin(USV-1)
-      - sshocean-bossxin(CA-2)
       - sshocean-bossxin(FR-2)
       - sshocean-bossxin(HK-1)
       - sshocean-bossxin(US-4)
@@ -339,13 +355,20 @@ proxy-groups:
       - jagoanssh-bossxin-JAGOANSSH(GE)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
+      - vmess-ws-tls(SG-2)
+      - HK-1
+      - vmess-ws-tls(VN)
+      - vmess-ws-tls(UK-2)
+      - vmess-ws-tls(US-2)
+      - vmess-ws-tls(DE-2)
+      - vmess-ws-tls(NL-2)
+      - vmess-ws-tls(CA)
+      - US-2
   - name: 负载均衡
     proxies:
-      - bossxin-serverssh.net(SG-2)
       - opentunnel.net-bossxin(DEV-1)
       - opentunnel.net-bossxin(IDV-1)
       - opentunnel.net-bossxin(USV-1)
-      - sshocean-bossxin(CA-2)
       - sshocean-bossxin(FR-2)
       - sshocean-bossxin(HK-1)
       - sshocean-bossxin(US-4)
@@ -354,6 +377,15 @@ proxy-groups:
       - jagoanssh-bossxin-JAGOANSSH(GE)
       - sshocean-bossxin(MD-1)
       - sshocean-bossxin(KZ-1)
+      - vmess-ws-tls(SG-2)
+      - HK-1
+      - vmess-ws-tls(VN)
+      - vmess-ws-tls(UK-2)
+      - vmess-ws-tls(US-2)
+      - vmess-ws-tls(DE-2)
+      - vmess-ws-tls(NL-2)
+      - vmess-ws-tls(CA)
+      - US-2
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 600
