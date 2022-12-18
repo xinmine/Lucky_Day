@@ -15,17 +15,15 @@ dns:
   fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
   fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-  - {"type":"vmess","name":"opentunnel.net-xinya(IDV-1)","ws-opts":{"path":"/opentunnel?user=opentunnel.net-xinya","headers":{"host":"idv-1.openv2ray.com"}},"server":"104.16.157.161","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"opentunnel.net-xinya(USV-1)","ws-opts":{"path":"/opentunnel?user=opentunnel.net-xinya","headers":{"host":"usv-1.openv2ray.com"}},"server":"104.16.93.39","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"opentunnel.net-xinya(AUV-1)","ws-opts":{"path":"/opentunnel?user=opentunnel.net-xinya","headers":{"host":"auv-1.openv2ray.com"}},"server":"104.16.82.212","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"vmess-ws-tls(US)","ws-opts":{"path":"/racevpn","headers":{"host":"us-full.privateip.net"}},"server":"104.19.155.217","port":"443","uuid":"839fadef-bfe3-40df-adaf-427f3e4f86a5","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"vmess-ws-tls(SG)","ws-opts":{"path":"/racevpn","headers":{"host":"sg-full.privateip.net"}},"server":"104.19.155.217","port":"443","uuid":"66668632-157e-4fa5-b72e-16a27c33ff27","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"vmess-ws-tls(CA)","ws-opts":{"path":"/racevpn","headers":{"host":"ca-full.privateip.net"}},"server":"104.16.198.108","port":"443","uuid":"85f7863b-32cb-466f-8720-68ea1348aec5","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"vmess-ws-tls(VN)","ws-opts":{"path":"/racevpn","headers":{"host":"vn-full.privateip.net"}},"server":"162.159.128.218","port":"443","uuid":"08a396e6-a6a4-4eba-8091-c64a45c217a1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"vn2.v2-ray.comWSS","ws-opts":{"path":"GET-:wss:///fastssh/","headers":{"host":"vn2.v2-ray.com"}},"server":"104.17.187.216","port":"443","uuid":"35296b90-7db0-11ed-b432-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"sg1-temp.v2-ray.com","ws-opts":{"path":"/fastssh","headers":{"host":"sg1-temp.v2-ray.com"}},"server":"104.16.93.39","port":"443","uuid":"a24a7100-7db0-11ed-b430-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"my.v2-ray.com","ws-opts":{"path":"/fastssh","headers":{"host":"my.v2-ray.com"}},"server":"104.17.185.3","port":"443","uuid":"e309ebe0-7db0-11ed-b131-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"de.v2-ray.com","ws-opts":{"path":"/fastssh","headers":{"host":"de.v2-ray.com"}},"server":"104.19.155.217","port":"443","uuid":"0e2e40e0-7db1-11ed-b932-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"sshocean-bossxin(HK-1)","ws-opts":{"path":"/sshocean","headers":{"host":"hk1.v2rayserv.com"}},"server":"104.17.160.198","port":"443","uuid":"b3dde468-c1f0-466a-934f-3681e99fa25c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"sg-atha.v2-ray.comWSS","ws-opts":{"path":"GET-:wss:///fastssh/","headers":{"host":"sg-atha.v2-ray.com"}},"server":"104.17.190.97","port":"443","uuid":"c76267d0-7ea0-11ed-b832-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"vn1.v2-ray.comWSS","ws-opts":{"path":"GET-:wss:///fastssh/","headers":{"host":"vn1.v2-ray.com"}},"server":"104.17.190.97","port":"443","uuid":"f2692de0-7ea1-11ed-b033-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"nl.v2-ray.comWSS","ws-opts":{"path":"GET-:wss://e.e.e/fastssh/","headers":{"host":"nl.v2-ray.com"}},"server":"104.17.97.155","port":"443","uuid":"d0280aa0-7ea1-11ed-b637-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"de.v2-ray.comWSS","ws-opts":{"path":"GET-:wss:///fastssh/","headers":{"host":"de.v2-ray.com"}},"server":"104.17.144.65","port":"443","uuid":"9cfa1fc0-7ea1-11ed-b132-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"usa-2.v2-ray.comWSS","ws-opts":{"path":"GET-:wss:///fastssh/","headers":{"host":"usa-2.v2-ray.com"}},"server":"104.19.146.70","port":"443","uuid":"49437f90-7ea1-11ed-b038-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"opentunnel.net-bossxin(USV-1)","ws-opts":{"path":"/opentunnel?user=opentunnel.net-bossxin","headers":{"host":"usv-1.openv2ray.com"}},"server":"104.17.97.155","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"ca.v2-ray.comWSS","ws-opts":{"path":"GET-:wss:///fastssh/","headers":{"host":"ca.v2-ray.com"}},"server":"104.16.40.36","port":"443","uuid":"0f4324c0-7ea2-11ed-b635-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"sshocean-bossxin(SG-8)","ws-opts":{"path":"/sshocean","headers":{"host":"sg8.v2rayserv.com"}},"server":"104.18.245.44","port":"443","uuid":"ded94be1-2a5d-403b-bbc2-8214d24eabf8","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
@@ -33,17 +31,15 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - opentunnel.net-xinya(IDV-1)
-      - opentunnel.net-xinya(USV-1)
-      - opentunnel.net-xinya(AUV-1)
-      - vmess-ws-tls(US)
-      - vmess-ws-tls(SG)
-      - vmess-ws-tls(CA)
-      - vmess-ws-tls(VN)
-      - vn2.v2-ray.comWSS
-      - sg1-temp.v2-ray.com
-      - my.v2-ray.com
-      - de.v2-ray.com
+      - sshocean-bossxin(HK-1)
+      - sg-atha.v2-ray.comWSS
+      - vn1.v2-ray.comWSS
+      - nl.v2-ray.comWSS
+      - de.v2-ray.comWSS
+      - usa-2.v2-ray.comWSS
+      - opentunnel.net-bossxin(USV-1)
+      - ca.v2-ray.comWSS
+      - sshocean-bossxin(SG-8)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -51,17 +47,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 负载均衡
-      - opentunnel.net-xinya(IDV-1)
-      - opentunnel.net-xinya(USV-1)
-      - opentunnel.net-xinya(AUV-1)
-      - vmess-ws-tls(US)
-      - vmess-ws-tls(SG)
-      - vmess-ws-tls(CA)
-      - vmess-ws-tls(VN)
-      - vn2.v2-ray.comWSS
-      - sg1-temp.v2-ray.com
-      - my.v2-ray.com
-      - de.v2-ray.com
+      - sshocean-bossxin(HK-1)
+      - sg-atha.v2-ray.comWSS
+      - vn1.v2-ray.comWSS
+      - nl.v2-ray.comWSS
+      - de.v2-ray.comWSS
+      - usa-2.v2-ray.comWSS
+      - opentunnel.net-bossxin(USV-1)
+      - ca.v2-ray.comWSS
+      - sshocean-bossxin(SG-8)
     _index: 1
   - name: 📲 电报信息
     type: select
@@ -69,51 +63,45 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 负载均衡
-      - opentunnel.net-xinya(IDV-1)
-      - opentunnel.net-xinya(USV-1)
-      - opentunnel.net-xinya(AUV-1)
-      - vmess-ws-tls(US)
-      - vmess-ws-tls(SG)
-      - vmess-ws-tls(CA)
-      - vmess-ws-tls(VN)
-      - vn2.v2-ray.comWSS
-      - sg1-temp.v2-ray.com
-      - my.v2-ray.com
-      - de.v2-ray.com
+      - sshocean-bossxin(HK-1)
+      - sg-atha.v2-ray.comWSS
+      - vn1.v2-ray.comWSS
+      - nl.v2-ray.comWSS
+      - de.v2-ray.comWSS
+      - usa-2.v2-ray.comWSS
+      - opentunnel.net-bossxin(USV-1)
+      - ca.v2-ray.comWSS
+      - sshocean-bossxin(SG-8)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 负载均衡
-      - opentunnel.net-xinya(IDV-1)
-      - opentunnel.net-xinya(USV-1)
-      - opentunnel.net-xinya(AUV-1)
-      - vmess-ws-tls(US)
-      - vmess-ws-tls(SG)
-      - vmess-ws-tls(CA)
-      - vmess-ws-tls(VN)
-      - vn2.v2-ray.comWSS
-      - sg1-temp.v2-ray.com
-      - my.v2-ray.com
-      - de.v2-ray.com
+      - sshocean-bossxin(HK-1)
+      - sg-atha.v2-ray.comWSS
+      - vn1.v2-ray.comWSS
+      - nl.v2-ray.comWSS
+      - de.v2-ray.comWSS
+      - usa-2.v2-ray.comWSS
+      - opentunnel.net-bossxin(USV-1)
+      - ca.v2-ray.comWSS
+      - sshocean-bossxin(SG-8)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 负载均衡
-      - opentunnel.net-xinya(IDV-1)
-      - opentunnel.net-xinya(USV-1)
-      - opentunnel.net-xinya(AUV-1)
-      - vmess-ws-tls(US)
-      - vmess-ws-tls(SG)
-      - vmess-ws-tls(CA)
-      - vmess-ws-tls(VN)
-      - vn2.v2-ray.comWSS
-      - sg1-temp.v2-ray.com
-      - my.v2-ray.com
-      - de.v2-ray.com
+      - sshocean-bossxin(HK-1)
+      - sg-atha.v2-ray.comWSS
+      - vn1.v2-ray.comWSS
+      - nl.v2-ray.comWSS
+      - de.v2-ray.comWSS
+      - usa-2.v2-ray.comWSS
+      - opentunnel.net-bossxin(USV-1)
+      - ca.v2-ray.comWSS
+      - sshocean-bossxin(SG-8)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -137,17 +125,15 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 负载均衡
-      - opentunnel.net-xinya(IDV-1)
-      - opentunnel.net-xinya(USV-1)
-      - opentunnel.net-xinya(AUV-1)
-      - vmess-ws-tls(US)
-      - vmess-ws-tls(SG)
-      - vmess-ws-tls(CA)
-      - vmess-ws-tls(VN)
-      - vn2.v2-ray.comWSS
-      - sg1-temp.v2-ray.com
-      - my.v2-ray.com
-      - de.v2-ray.com
+      - sshocean-bossxin(HK-1)
+      - sg-atha.v2-ray.comWSS
+      - vn1.v2-ray.comWSS
+      - nl.v2-ray.comWSS
+      - de.v2-ray.comWSS
+      - usa-2.v2-ray.comWSS
+      - opentunnel.net-bossxin(USV-1)
+      - ca.v2-ray.comWSS
+      - sshocean-bossxin(SG-8)
     _index: 0
   - name: 🐟 漏网之鱼
     type: select
@@ -156,30 +142,26 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 负载均衡
-      - opentunnel.net-xinya(IDV-1)
-      - opentunnel.net-xinya(USV-1)
-      - opentunnel.net-xinya(AUV-1)
-      - vmess-ws-tls(US)
-      - vmess-ws-tls(SG)
-      - vmess-ws-tls(CA)
-      - vmess-ws-tls(VN)
-      - vn2.v2-ray.comWSS
-      - sg1-temp.v2-ray.com
-      - my.v2-ray.com
-      - de.v2-ray.com
+      - sshocean-bossxin(HK-1)
+      - sg-atha.v2-ray.comWSS
+      - vn1.v2-ray.comWSS
+      - nl.v2-ray.comWSS
+      - de.v2-ray.comWSS
+      - usa-2.v2-ray.comWSS
+      - opentunnel.net-bossxin(USV-1)
+      - ca.v2-ray.comWSS
+      - sshocean-bossxin(SG-8)
   - name: 负载均衡
     proxies:
-      - opentunnel.net-xinya(IDV-1)
-      - opentunnel.net-xinya(USV-1)
-      - opentunnel.net-xinya(AUV-1)
-      - vmess-ws-tls(US)
-      - vmess-ws-tls(SG)
-      - vmess-ws-tls(CA)
-      - vmess-ws-tls(VN)
-      - vn2.v2-ray.comWSS
-      - sg1-temp.v2-ray.com
-      - my.v2-ray.com
-      - de.v2-ray.com
+      - sshocean-bossxin(HK-1)
+      - sg-atha.v2-ray.comWSS
+      - vn1.v2-ray.comWSS
+      - nl.v2-ray.comWSS
+      - de.v2-ray.comWSS
+      - usa-2.v2-ray.comWSS
+      - opentunnel.net-bossxin(USV-1)
+      - ca.v2-ray.comWSS
+      - sshocean-bossxin(SG-8)
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 600
